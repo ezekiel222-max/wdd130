@@ -1,0 +1,78 @@
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and Navigation */
+header {
+  background: #004080;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  max-width: 840px;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+main img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* Aside section */
+aside {
+  width: 20rem;
+  margin: 1rem auto;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* Paragraph reset */
+p {
+  padding: 0;
+}
+
+/* Footer */
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+  padding: 1rem;
+}
